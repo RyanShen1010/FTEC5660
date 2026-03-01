@@ -22,6 +22,8 @@ pip install -r requirements.txt
 1. **Set API key** (at least OpenAI for baseline):
    ```bash
    export OPENAI_API_KEY=your_key
+   export DEEPSEEK_API_KEY=your_key
+   export DASHSCOPE_API_KEY=your_key
    ```
 
 2. **Download full data** (optional, for ~30 samples):

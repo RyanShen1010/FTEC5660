@@ -82,7 +82,7 @@ def main():
 
     # Print comparison table
     print("\n" + "=" * 60)
-    print("COMPARISON TABLE (fill report.html)")
+    print("COMPARISON TABLE")
     print("=" * 60)
     print(f"{'Experiment':<25} {'Accuracy':>10} {'Bal.ACC':>10} {'Mac.F1':>10} {'AUC':>10}")
     print("-" * 65)

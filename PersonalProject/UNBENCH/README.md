@@ -5,7 +5,7 @@ FTEC5660 Reproducibility Work — [UNBench: Benchmarking LLMs for Political Scie
 ## Setup
 
 ```bash
-cd unbench_repro
+cd UNBENCH
 pip install -r requirements.txt
 ```
 
@@ -33,9 +33,8 @@ pip install -r requirements.txt
    ```bash
    python run_full_experiment.py
    ```
-   Or: `bash run_comparison.sh`
 
-4. **Results** in `results/experiments.json` — copy to `report.html` for submission.
+4. **Results** in `results/experiments.json`.
 
 ## Individual Runs
 
@@ -73,15 +72,3 @@ Per [UNBench paper](https://arxiv.org/pdf/2502.14122):
 3. **Multiple trials** — Use `--trials 3` for temp>0 to report mean±std
 4. **Parameter modifications** — Temperature, max_tokens
 
-## 提交准备
-
-```bash
-export OPENAI_API_KEY=your_key
-bash run_submit.sh
-```
-
-一键完成：安装依赖、下载数据、运行实验、填充报告。详见 `SUBMISSION_CHECKLIST.md`。
-
-## Report
-
-Fill `report.html` with your results. Generate PDF: Cmd+P (Mac) or Ctrl+P (Win) → Save as PDF.

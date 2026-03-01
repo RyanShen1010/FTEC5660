@@ -50,7 +50,7 @@ python run_task3.py --provider openai --model gpt-4o-mini --temperature 0
 python run_task3.py --provider deepseek --model deepseek-chat --temperature 0
 ```
 
-**Qwen (通义千问, DashScope):**
+**Qwen:**
 ```bash
 export DASHSCOPE_API_KEY=your_key
 python run_task3.py --provider qwen --model qwen-plus --temperature 0

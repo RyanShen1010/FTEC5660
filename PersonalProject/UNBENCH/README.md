@@ -65,12 +65,4 @@ python run_task3.py --provider openai --model gpt-4o-mini --temperature 0.7 --tr
 python run_task3.py --provider openai --model gpt-4o-mini --max-tokens 50
 ```
 
-## Paper-Aligned Features
-
-Per [UNBench paper](https://arxiv.org/pdf/2502.14122):
-
-1. **Multi-model comparison** — GPT-4o-mini, DeepSeek, Qwen (Table 2: GPT-4o Bal.ACC 0.677, Mac.F1 0.363)
-2. **Metadata ablation** — Add `--metadata` when data has date/authors
-3. **Multiple trials** — Use `--trials 3` for temp>0 to report mean±std
-4. **Parameter modifications** — Temperature, max_tokens
 

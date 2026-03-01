@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
 """
 UNBench Task 3: Resolution Adoption Prediction
-Reproducibility script - supports OpenAI, DeepSeek, and Qwen.
-Based on: https://arxiv.org/pdf/2502.14122 (UNBench AAAI 2026)
+Reproducibility script - OpenAI, DeepSeek, and Qwen.
 """
 import json
 import os
